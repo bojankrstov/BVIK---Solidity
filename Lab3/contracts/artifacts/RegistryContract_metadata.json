@@ -1,0 +1,190 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "companyAddress",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "CompanyCreated",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "personAddress",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "surname",
+						"type": "string"
+					}
+				],
+				"name": "PersonCreated",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "addCompany",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_surname",
+						"type": "string"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "getCompany",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "getPerson",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Contract.sol": "RegistryContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Contract.sol": {
+			"keccak256": "0xe292eadc54e748cb2609955a501ad6e9400603682e821c819572ffa32334314e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d1c6cc9ddb212a773ddd6b7c71fd1de81abf5d6c1f0b40ad7451336cba1bf47e",
+				"dweb:/ipfs/QmXiBKmKwuj1HsSm4HBkL6WrRpo3qrH5KNKLkj8DD6kPLg"
+			]
+		},
+		"contracts/Interface.sol": {
+			"keccak256": "0x8779f25c57274768ae6c8d0f0b6bec156008cf5281d0705e3d97cd1a90d6b0f5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://385ef363045c8cee19b1b73fbfbc1f8f872e5c466170f20df0e07ba265cd454d",
+				"dweb:/ipfs/QmS45PC1QbqHC4iQ9kofA35VEcKRQynsJ722SvmLEfYgrn"
+			]
+		},
+		"contracts/Library.sol": {
+			"keccak256": "0x9f1125ebfc25dfbe9583b2dfc6bcc91c203ed50f6ff3d3f9b0a834d30bb0fdb7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://94efc9e7335ad6f7bd513a3f3e1537e8df1c0386e11fb6ecbbfd5998f8c60d54",
+				"dweb:/ipfs/QmStWJVvYVUbfko5FVpjthATLMapsVBQpnhWdaEg34q4Mf"
+			]
+		}
+	},
+	"version": 1
+}
