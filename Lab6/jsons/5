@@ -1,0 +1,23 @@
+{
+  "name": "FINKI-195021 NFT #5",
+  "image": "https://gateway.pinata.cloud/ipfs/QmRivtC3Lv5HchBz91c1H89e2HJRz7jwn5mr33YKTQQixm/5.jpg",
+  "description": "Finki-Bojan-Krstov-195021",
+  "attributes": [
+    {
+      "trait_type": "Name",
+      "value": "Verica Bakeva"
+    },
+    {
+      "trait_type": "Title",
+      "value": "Profesor"
+    },
+    {
+      "trait_type": "Number of courses",
+      "value": "5"
+    },
+    {
+      "trait_type": "Number of citations",
+      "value": "13"
+    }
+  ]
+}
